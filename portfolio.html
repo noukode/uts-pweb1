@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var, center,
+        dl, dt, dd,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+
+        .container{
+            display: flex;
+            height: 1800px;
+        }
+
+        .left{
+            color:white;
+            width: 30%;
+            background-color: #0076a4;
+            padding: 5rem;
+        }
+        
+        .right{
+            width: 70%;
+            display: inline-block;
+            background-color: #fff;
+        }
+
+        .portrait{
+            width: 100%;
+            background-size: cover;
+        }
+
+        .img-circle{
+            border-radius: 50%;
+            width: 100%;
+            display: block;
+        }
+
+        .left>.bio>h1{
+            margin: 1rem 0;
+            font-size: 4rem;
+        }
+
+        .left>.bio>h2{
+            margin: 1rem 0;
+            font-size: 3rem;
+        }
+
+        .contact {
+            margin-top: 3rem;
+        }
+
+        .contact > ul{
+            margin-left: 1rem;
+        }
+
+        .contact > ul > li{
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            list-style: none;
+        }
+        
+        .skills {
+            margin-top: 5rem;
+        }
+
+        .skills > h3{
+            font-size: 2rem;
+        }
+
+        .skills > ul {
+            margin-top: 2rem;
+            margin-left: 1rem;
+        }
+
+        .skills > ul > li {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .row{
+            padding: 5rem;
+        }
+
+        .title{
+            font-size: 3rem;
+            padding: 1rem;
+            background-color: #e0ecf8;
+            margin: 1rem 0 2rem;
+        }
+
+        .row>.name{
+            text-align: center;
+            font-size: 4rem;
+        }
+        
+        .row > a > .portfolio{
+            text-align: center;
+            font-size: 6rem;
+            margin-top: 40rem;
+        }
+        
+        .row > a > .portfolio > hr{
+            margin: 0 auto;
+            width: 30%;
+            height: 5px;
+            background-color: #000;
+            border: 0;
+        }
+        
+        .row>.born{
+            margin: 50rem 3rem 0;
+            text-align: right;
+            font-size: 4rem;
+        }
+
+        .row h2{
+            font-size: 2.5rem;
+        }
+
+        .row > div ul{
+            margin: 1rem 2rem;
+        }
+
+        .fw-bold {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Container -->
+        <div class="left">
+            <!-- Profile Image -->
+            <div class="portrait">
+                <img class="img-circle" src="profile2.jpg" alt="Profile">
+            </div>
+            <!-- Bio Data Mahasiswa -->
+            <div class="bio">
+                <h1>Hilmi Maulana</h1>
+                <h2>IT204</h2>
+            </div>
+            <!-- Contact Person -->
+            <div class="contact">
+                <ul>
+                    <li><i class="fas fa-fw fa-envelope"></i> <a href="mailto:maulanahilmi909@gmail.com">maulanahilmi909@gmail.com</a></li>
+                    <li><i class="fas fa-fw fa-phone"></i> <a href="https://wa.me/6289639959159">6289639959159</a></li>
+                    <li><i class="fas fa-fw fa-globe"></i> <a href="https://noukode.github.io">noukode.github.io</a></li>
+                </ul>
+            </div>
+
+            <!-- Skills Mahasiswa -->
+            <div class="skills">
+                <h3>Skills Siswa</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right Container -->
+        <div class="right">
+            <div class="row">
+                <!-- Bagian Organisasi -->
+                <div class="organisasi">
+                    <!-- Title Div -->
+                    <div class="title"><b>ORGANISASI YANG PERNAH DIIKUTI</b></div>
+                    <table border="10">
+                        <tr>
+                            <td rowspan="2" width="10%"><img src="plane.svg" style="width: 60%;" alt="Plane"></td>
+                            <td>
+                                <!-- Nama Pengalaman Organisasi -->
+                                <h2><b>ORGANISASI SISWA INTRA SEKOLAH</b></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Pencapaian dalam Organisasi -->
+                                <p style="margin-top:1rem">
+                                    <i>September 2013 - September 2014 (1 Tahun)</i>
+                                    <ul>
+                                        <li>Program One Day One Ayat</li>
+                                        <li>Program Sedekah Subuh</li>
+                                        <li>Program Kelola Limbah Masak</li>
+                                    </ul>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Bagian Pendidikan -->
+                <div class="pendidikan" style="margin-top:5rem;">
+                    <!-- Title Div -->
+                    <div class="title"><b>PENDIDIKAN</b></div>
+                    <table>
+                        <tr>
+                            <td rowspan="2" width="10%"><img src="toga.svg" style="width: 60%;" alt="Graduate"></td>
+                            <td>
+                                <!-- Nama Instansi Pendidikan -->
+                                <h2><b>S1 PJJ TEKNIK INFORMATIKA</b></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Pengalaman dalam instansi pendidikan -->
+                                <p style="margin-top:1rem">
+                                    UNIVERSITAS SIBER ASIA
+                                    <i>TAHUN: 2026</i>
+                                    <ul>
+                                        <li>Cum Laude</li>
+                                        <li>Target IPK : 3.80</li>
+                                        <li>Pengembangan Aplikasi Mobile untuk Deteksi dan Pemantauan Polusi Udara Berbasis Internet of Things (IoT).</li>
+                                    </ul>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Bagian Sertifikat -->
+                <div class="sertifikat" style="margin-top:5rem;">
+                    <!-- Title Div -->
+                    <div class="title"><b>SERTIFIKAT KEAHLIAN</b></div>
+                    <table>
+                        <tr>
+                            <td rowspan="2" width="10%"><img src="certificate.svg" style="width: 60%;" alt="Certificate"></td>
+                            <td>
+                                <!-- Nama Penyelenggara Sertifikasi -->
+                                <h2><b>Digitalent Kominfo Golang Professional Academy</b></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Tahun mendapatkan Sertifikat -->
+                                <p style="margin-top:1rem">
+                                    <i>2022</i>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" width="10%"><img src="certificate.svg" style="width: 60%;" alt="Certificate"></td>
+                            <td>
+                                <!-- Nama Penyelenggara Sertifikasi -->
+                                <h2><b>Responsive Web Design : FreeCodeCamp.org</b></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Tahun mendapatkan Sertifikat -->
+                                <p style="margin-top:1rem">
+                                    <i>2021</i>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" width="10%"><img src="certificate.svg" style="width: 60%;" alt="Certificate"></td>
+                            <td>
+                                <!-- Nama Penyelenggara Sertifikasi -->
+                                <h2><b>Cascading Style Sheet (CSS) : HackerRank</b></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Tahun mendapatkan Sertifikat -->
+                                <p style="margin-top:1rem">
+                                    <i>2021</i>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
